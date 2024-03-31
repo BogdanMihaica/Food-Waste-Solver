@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+PROGRAM_NAME="client"
+
+
+gcc "${PROGRAM_NAME}.c" -o "${PROGRAM_NAME}" -lsqlite3
